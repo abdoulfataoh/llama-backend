@@ -4,4 +4,10 @@ Llama-backend is a scalable and reliable backend service that provides a robust 
 
 ### Requierments
 
+We use [poetry](https://python-poetry.org/) in this project to manage virtual env and dependancies. To install poetry, run the follwing command
+
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
 ### Installation
