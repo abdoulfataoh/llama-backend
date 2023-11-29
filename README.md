@@ -21,3 +21,18 @@ Before using llama model, you must:
 - Request access on meta [huggingface page](https://huggingface.co/meta-llama)
 
 ### Installation
+
+Install the project dependancies
+
+```bash
+poetry install
+```
+
+HuggingFace login
+
+```bash
+huggingface-cli login --token <YOUR_ACCESS_TOKEN>
+```
+
+### Usage
+  
