@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "llama-backend"
+version = "0.1.0"
+description = "this is llama model backend"
+authors = ["abdoulfataoh <abdoulfataoh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+environs = "^9.5.0"
+fastapi = "^0.104.1"
+celery = "^5.3.6"
+
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.7.1"
+flake8 = "^6.1.0"
+pytest = "^7.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
