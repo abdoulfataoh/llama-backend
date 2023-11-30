@@ -35,4 +35,10 @@ huggingface-cli login --token <YOUR_ACCESS_TOKEN>
 ```
 
 ### Usage
+
+Start the start with unicorn
+
+```bash
+uvicorn start:fastapi_app --reload
+```
   
